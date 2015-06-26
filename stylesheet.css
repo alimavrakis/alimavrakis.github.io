@@ -1,0 +1,50 @@
+@font-face {
+    font-family: openSans;
+    src: url(./fonts/OpenSans-Regular.ttf);
+    }
+
+body {margin:40px auto; max-width:650px; line-height:1.6; font-size:18px;
+      font-family:openSans;
+      color:#444;
+      padding:0 10px;
+     }
+      
+h1 {
+    font-size: 4em;
+    margin:0px;
+    line-height:1;
+}
+
+#main {
+    min-height:100vh;
+}
+
+.connect-list {
+    padding:0px;
+    margin:0px;
+    list-style-type:none;
+}
+
+#logo {
+    max-width: 30px;
+}
+
+#logodiv {
+    padding:0px;
+    margin: 0px;
+    background-color: #ddd;
+}
+
+.connect-list i {
+    font-size:3em;
+    color:#444;
+}
+
+.connect-list i:hover {
+    color:#111;
+    }
+
+.connect-list li {
+    display: inline;
+    margin-right: 10px;
+    }

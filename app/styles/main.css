@@ -89,18 +89,19 @@ body {
 .masthead {
     margin-top: 25%;
     padding: 0px 5%;
-    /* position:absolute; */
-    /* top:40%; */
-    /* transform:translateY(-50%); */
 }
 
-.btn-lg {
+.retry {
     margin-top: 2em;
-
+    color:#333;
 }
 
 .caret {
     font-size: 5em;
+}
+
+.project-link > a {
+    color: #fcfcfc;
 }
 
 #pg2 {
@@ -115,4 +116,40 @@ body {
 
 #heading {
     font-size:3em;
-    }
+}
+
+.flex-col {
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex {
+    flex: 1;
+}
+
+.flex-4 {
+    flex: 0 1 33%;
+}
+
+.flex-6 {
+    flex: 0 1 50%;
+}
+
+.flex-8 {
+    flex: 0 1 66%;
+}
+
+.tile {
+    margin: 10px;
+    padding: 10px;
+    background-color: #444;
+    vertical-align: bottom;
+}
+
+.img-tile {
+    margin: 10px;
+}
